@@ -10,12 +10,12 @@ body {
 /*Import local fonts*/
 @font-face {
     font-family: 'garetThin';
-    src: url(/fonts/garet.ttf)format(truetype);
+    src: url(./fonts/garet.ttf)format(truetype);
 }
 
 @font-face {
     font-family: 'garetHeavy';
-    src: url(/fonts/garetheavy.ttf)format(truetype);
+    src: url(./fonts/garetheavy.ttf)format(truetype);
 }
 
 .main {
@@ -44,7 +44,7 @@ body {
 }
 
 #first_section {
-    background-image: url(/images/pixel.png);
+    background-image: url(./images/pixel.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
