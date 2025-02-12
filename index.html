@@ -2,27 +2,95 @@
 
 <html>
 
-    <head>
-        <title> Sample Web Page </title>
-        <link rel="stylesheet" href="sample.css">
-    </head>
-    <body>
-        <div class = "main">
-            <div class = "first_section">
-                <nav>
-                  <p> Portfolio </p>
-                  <p class = "menu_categ"> Home </p>
-                  <p class = "menu_categ"> About </p>
-                  <p class = "menu_categ"> Contact </p>
-                </nav>
-
+<head>
+    <title> Franz Creates </title>
+    <link rel="stylesheet" type="text/css" href="sample.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class ="child_content" id ="main_content">
+            <div class ="grandchild_content" id = "first_section">
+                <div class = "nav_bar">
+                    <div class="nav_child">
+                    <nav>
+                       <h1> franz creates. </h1> 
+                    </nav>
+                    </div> <!--end of logo nav child div-->
+                    <div class="nav_child" style="justify-content: flex-end; margin-right: 50px;" >
+                        <a href="#Home">Home</a>
+                        <a href="#Works"> Works </a>
+                        <a href="#Contacts"> Contact </a>
+                    </div> <!--end of div-->
+                </div> <!-- end of navbar-->
+                <div class="main_child">
+                    <div class = "main_grandchild" id ="details" style="flex:1;">
+                        <h1 style="color:#FFC107; margin-bottom: 5px;" > |Franz Saragena </h1>
+                        <p style="margin-top: 5px;"> Web Developer. UI/UX Designer. </p>
+                        <p style="color:#FFC107; font-size: 20px;"> |SKILLS </p>
+                        <span style="margin-bottom: 0px;">
+                            - Graphic Design, Figma Wireframing/ Layouting, Game Development, Programming
+                        </span>
+                        <p style="color: white; font-size: 20px;"> |Language Known: </p>
+                        <span style="margin-bottom: 0px;">
+                            - Python(Pygame), Java(Javafx), Javascript, R, C
+                        </span>
+                    </div>
+                    <div class = "main_grandchild" style="flex: 1;">
+                        <img style = "opacity: 0.7;" src="/images/logo.png"></img>
+                    </div>
+                    <div clas = "autobiography" style="flex: 1;">
+                        <h1> |AUTOBIOGRAPHY</h1>
+                        <span >
+                            Franz Saragena is a Computer Science student in the University
+                            of the Philippines Los Banos. She graduated her High School studies in Mindanao
+                            State University Iligan Institute of Technology. During her free time, she likes to do 
+                            Graphic Design. She loves the color yellow and has an interest in Game Development, Fullstack
+                            Web/Mobile Development.  
+                        </span>
+                    </div>
+                </div> <!-- end of main child -->
             </div>
-            <div class = "second_section">
-             <p> HOLA WORLD! </p>
-            </div>
-            <div class = "third_section">
-             <p> OHAYOU! </p>
+            <div class ="grandchild_content" id = "prev_proj">
+                
+                <div style="flex:0.2;">
+                <h1> | Previous Projects </h1>
+                </div>
+                <div class="project" style="flex:1;">
+                    <div class="product">
+                    <h3> Food Trip </h3>
+                    <span>
+                        FoodTrip is a website about recommended food menus
+                        that allows order and reservation simulation. It is made
+                        with javascript, html and css.
+                    </span>
+                    </div>
+                    <div class = "product">
+                        <h3> Catipunero </h3>
+                        <span style="background-color: none;">
+                        Catipunero is a game developed in Java using JavaFx. It is a drag
+                        and drop game that takes inspiration on the UPLB sceneries and cat population.
+                        It is a strategy game created for the CMSC 22 project.
+                    </span>
+                    </div>
+                    <div class = "product">
+                        <h3> Typing Game </h3>
+                    <span style="background-color: none;">
+                       Typing Game is an attempt of the famous MonkeyType typing game with my own added twist. It is also a 
+                       GUI made with python and pygame. It is a personal side project, continued after CMSC 12's terminal-based game.
+                       It features basic database incorporating File leaderboards.
+                    </span>
+                    </div>
+                </div>
             </div>
         </div>
-    </body>
+        <div class ="child_content" id ="footer">
+            <footer>
+            <p> © 2025 Franz Saragena. All rights reserved.</p>
+            <p style="font-size: 10px;"> Email me on: <a href=""> kamustafranzu@gmail.com </a> | Message me on: <a href=""> @gonbolig </a> | franz creates.</p>
+        </footer>
+        </div>
+
+    </div>
+
+</body>
 </html>
